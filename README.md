@@ -45,7 +45,7 @@ Add a Department It parameter to the user by running "Set-ADUser Josep -Departme
 <img src="https://imagizer.imageshack.com/img924/6033/FXPF13.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-USe the following command to see the user properties and verify that all changes were made "Get-ADUser Josep -Properties department": <br/>
+Use the following command to see the user properties and verify that all changes were made "Get-ADUser Josep -Properties department": <br/>
 <img src="https://imagizer.imageshack.com/img924/5566/blftfP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
@@ -57,19 +57,19 @@ Log in to the Josep user account via the Windows 10 client machine: <br/>
 <img src="https://imagizer.imageshack.com/img924/5848/vBoOEr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-: <br/>
+Download the "Create-Users.ps1" and "Userlist.csv" files to your Windows Server. Move them to our C: Drive: <br/>
 <img src="https://imagizer.imageshack.com/img922/544/Y1CrHw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-: <br/>
+Edit "Create-Users.ps1" with PowerShell ISE by right-clocking it and choosing Edit: <br/>
 <img src="https://imagizer.imageshack.com/img923/992/u8eOOt.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-: <br/>
+Make sure the path of Userlist.csv ios correct: <br/>
 <img src="https://imagizer.imageshack.com/img922/2822/QDd1KK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-: <br/>
+Edit the CDV file with a word editor of your choice: <br/>
 <img src="https://imagizer.imageshack.com/img922/8935/Lj13P9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
